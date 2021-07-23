@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    section(class="hero is-large is-dark")
+        div(class="hero-body")
+            div(class="container")
+                h1.title=title
+    section.section
+        div.container
+            div.columns
+                div.column
+                    figure.image.is-4by3
+                        img(src=image)
+                div.column
+                    script(type="text/javascript").
+                        fetch('/info/pc.json')
+                            .then(response => response.json())
+                            .then(data => {
+                                let specs = data["#{title}"];
+                                let output = []
+                                Object.entries(specs).forEach(val => {
+                                    output.push(val.join(": "))
+                                })
+                                document.querySelector(".specs").innerHTML = output.join("<br>")
+                            });
+                    p.specs="loading..."
+

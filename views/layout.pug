@@ -1,0 +1,25 @@
+doctype html
+html
+  head
+    title= "Jaden Hou"
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1")
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='/stylesheets/css.css')
+    link(rel='stylesheet', href='/stylesheets/helpers.css')
+    //link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.2/css/bulma.min.css')
+    script(type="text/javascript", src="javascripts/index.js")
+    block scripts
+  body
+    nav(class="navbar is-dark", role="navigation", aria-label="main navigation")
+      div(class="navbar-brand")
+        a(class="navbar-item", href="/")="Jaden Hou"
+      div(class="navbar-menu", id="menu")
+        div(class="navbar-start")
+          a(class="navbar-item", href="/")="Home"
+          a(class="navbar-item", href="/setups")="Setups"
+          a(class="navbar-item", href="/pc")="PCs"
+          a(class="navbar-item", id="price", href="https://banano.cc/")="$0.00"
+        //div.navbar-end
+        //  a.navbar-item.username(href='https://discord.com/api/oauth2/authorize?client_id=734919111221444699&redirect_uri=https%3A%2F%2Fjadenhou.ml%2Flogin&response_type=code&scope=identify')="Log In"
+    block content

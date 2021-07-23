@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+// colors
+
+$white: #FEFCFB;
+$dark-blue: #1282a2;
+$dark-not-dark-blue: #034078;
+$middle-blue: #001f54;
+$light-blue: #0a1128;
+
+$body-background-color:  hsl(0, 0%, 21%);
+
+//sizes
+$title-size: 50pt;
+$subtitle-size: 20pt;
+
+
+//box
+
+$box-color: $white;
+$box-background-color: #575757;
+
+$body-family: 'Karla', sans-serif;
+@import "../node_modules/bulma/bulma.sass";

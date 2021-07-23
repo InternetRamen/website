@@ -1,0 +1,14 @@
+extends layout
+block scripts
+    script(type="text/javascript", src="javascripts/checker.js")
+
+block content
+    section(class="hero is-large is-dark")
+        div(class="hero-body")
+            div(class="container", id="main")
+                p Text Here:
+                br
+                textarea(type="text", id="atextarea", style="height: 100; width: 100;")
+                br
+                button(onClick="check()") click
+                p(id="output") type something first!

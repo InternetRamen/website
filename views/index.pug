@@ -1,0 +1,42 @@
+extends layout
+block scripts
+
+  script(type="text/javascript", src="https://cdn.jsdelivr.net/npm/showdown@1.9.1/dist/showdown.min.js")
+
+block content
+  section(class="hero is-large is-dark")
+    div(class="hero-body")
+      div(class="container center-column", id="main")
+        h1.title Jaden Hou
+        h2.subtitle I have no idea what I'm doing...
+  section.section.thingstoliveby
+    div.container
+      h2.subtitle.has-text-white.center-column=thingToLiveBy
+  section.section
+    div.container
+        h1.subtitle.has-text-white.center-column Some things I'm at least a bit interested in:
+        div.columns
+          div.column
+            div.box
+              div.columns
+                div.column
+                  figure.image.is-3by3
+                    img(src="./images/stonks.webp")
+                div.column
+                  h3.is-size-3 Personal Finance
+                  hr
+                  p.is-size-4 Big fan of escaping the Rat Race and I don't want to work for money.
+          div.column
+        div.columns
+          div.column
+          div.column
+            div.box
+              div.columns
+                div.column
+                  figure.image.is-3by3
+                     img(src="./images/programming-coding.jpg")
+                div.column
+                  h3.is-size-3 STEM
+                  hr
+                  p.is-size-4 I like making cool stuff and learning how the world works.
+

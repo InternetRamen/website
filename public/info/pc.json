@@ -1,0 +1,13 @@
+{
+  "First PC": {
+    "CPU": "AMD Ryzen 5 3600 3.6 GHz 6-Core Processor",
+    "CPU Cooler": "AMD Wraith Stealth Cooler",
+    "GPU": "Asus GeForce GTX 1660 SUPER 6 GB TUF GAMING OC Video Card",
+    "Motherboard": "MSI B450 TOMAHAWK MAX ATX AM4 Motherboard",
+    "RAM": "G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3600 CL18 Memory",
+    "Storage": "Team T-Force VULCAN 500 GB 2.5\" Solid State Drive",
+    "PSU": "be quiet! Pure Power 11 500 W 80+ Gold Certified ATX Power Supply",
+    "Case": "Cooler Master MasterBox TD500 Mesh White w/ Controller ATX Mid Tower Case",
+    "Fans": "ARCTIC P12 PST 56.3 CFM 120 mm Fan"
+  }
+}
